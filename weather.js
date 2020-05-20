@@ -3,7 +3,7 @@ var usr;
 function get_result(query){
 	return new Promise(function(resolve,reject){
 
-		https.get(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=d3de9c566542cc933b9215952ec573ec`, (resp) => {
+		https.get(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=API_KEY', (resp) => {
 			let data = '';
 		  
 			// A chunk of data has been recieved.
